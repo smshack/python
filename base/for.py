@@ -57,4 +57,20 @@ for i in range(2, 10):
     for j in range(1, 10):
         print(i, " X ", j, " = ", i*j)
     print()
+print('----------------------------------------------')
+print('반복문 list 이용')
+list = ['one', 'two', 'three', 'four', 'five',
+        'six', 'seven', 'eight', 'nine', 'ten']
+
+for num in list:
+    print(num)
+
+setdata = {1, 2, 3, 4, 4, 5, 5, 6}
+print(setdata)
+
+for num in setdata:
+    print(num)
+print('----------------------------------------------')
+for i in score:
+    print(i)
 print('***********************************************************')

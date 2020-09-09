@@ -38,3 +38,11 @@ print('나누기 '+str(apple / banana))
 print('몫'+str(apple // banana))
 print('나머지'+str(apple % banana))
 print('제곱'+str(apple ** banana))
+
+n, k = map(int, input().split())
+# n을 k로 나누었을 때
+
+# (n/k)*(n//k)+(n%k)
+
+# 값을 나눴어
+# 몫 * 나눈수 + 나머지
